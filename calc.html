@@ -1,0 +1,45 @@
+
+<html>
+<head>
+	<title>Discount Tax Commission</title>
+	<script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+</head>
+<body>
+<form name="discountCalculator" >
+  <div class="row">
+    <span><label for="mrp">MRP</label>
+    <input type="number" name="price" id="mrp" >
+    </span>
+    <span><label for="quantity">QUANTITY</label>
+    <input type="number" name="q" id="q" >
+    </span>
+    <span><label for="nd">Normal Discount</label>
+    <input type="number" name="nd" id="nd" ></span>
+    <span><label for="sd">Scheme Discount</label>
+    <input type="number" name="sd" id="sd" ></span>
+    <span><label for="tax">TAX</label>
+    <input type="number" name="tax" id="tax" ></span>
+    <span><label for="uc">Unit Cost</label>
+    <input type="number" name="uv" id="uc" readonly></span>
+      <span><label for="uc">Purchase Cost in %age</label>
+    <input type="number" name="pc" id="pc" readonly></span>
+      <span><label for="uc">Commission in %age</label>
+    <input type="number" name="comm" id="comm" readonly></span>
+    <span><label for="uc">Cash Discount in %age</label>
+    <input type="number" name="cd" id="cd"></span>
+    <span><label for="uc">Cost After Cash Discount</label>
+    <input type="number" name="cocd" id="cocd" readonly></span>
+    <span><label for="tc">Turnover Discount %age</label>
+    <input type="number" name="tc" id="tc" ></span>
+      <span><label for="uc">Net Cost After Turnover Discount</label>
+    <input type="number" name="dtc" id="dtc" readonly></span>
+    <span><label for="uc">Profit Rate</label>
+    <input type="number" name="pr" id="pr"></span>
+    <span><label for="tc">Selling Price</label>
+    <input type="number" name="sp" id="sp" readonly></span>
+  </div>
+  </form>
+<input id="submitCalc" type="button" value="submit">
+<script type="text/javascript" src="calc.js"></script>
+</body></body>

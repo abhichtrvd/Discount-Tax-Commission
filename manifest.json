@@ -1,0 +1,15 @@
+{
+
+  "manifest_version": 2,
+  "name": "Discount Tax Commission",
+  "version": "1.0",
+  "description": "Calculate Unit Price from Discount and Tax",
+  "icons": {
+    "16": "percentage.png"
+  },
+  "browser_action": {
+    "default_icon": "percentage.png",
+    "default_popup": "calc.html"
+  }
+
+}
